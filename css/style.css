@@ -1,0 +1,91 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+}
+
+.navigation a {
+    width: 48px;
+    height: 24px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;   
+    letter-spacing: 1.5;
+}
+
+.navigation {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 1.1;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.navigation .logo {
+    width: 71px;
+    height: 21px;
+    color: #2E2F42;
+}
+
+.navigation .logo span {
+    width: 44px;
+    height: 21px;
+    color: #4D5AE5;
+}
+
+.address {
+    position: absolute;
+    left: 940px;
+    top: 24px;
+    font-size: 16px;
+    line-height: 24px;  
+    letter-spacing: 1.5;
+    color: #434455;
+}
+
+.bg {
+    width: 1920px;
+}
+
+.first-section h1{
+    position: absolute;
+    left: 480px;
+    top: 260px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    letter-spacing: 1.07;
+    text-align: center;
+    color: #fff;
+}
+
+.first-section button {
+
+    /** TEXT **/
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1.5;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+
+    /** BG **/
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 32px;
+    gap: 10px;
+    position: absolute;
+    width: 169px;
+    height: 56px;
+    left: 850px;
+    top: 428px;
+    background-color: #4D5AE5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+
+
