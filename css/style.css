@@ -13,24 +13,24 @@ body {
 }
 
 .navigation {
-    font-weight: 800;
+    
+}
+
+.navigation .logo {
+    font-family: 'Raleway';
+    font-weight: 800;   
     font-size: 18px;
     line-height: 21px;
     letter-spacing: 1.1;
     display: flex;
     align-items: center;
     text-transform: uppercase;
-}
-
-.navigation .logo {
-    width: 71px;
-    height: 21px;
     color: #2E2F42;
 }
 
 .navigation .logo span {
-    width: 44px;
-    height: 21px;
+    font-family: 'Raleway';
+    font-weight: 800;
     color: #4D5AE5;
 }
 
@@ -48,7 +48,7 @@ body {
     width: 1920px;
 }
 
-.first-section h1{
+.solutions h1{
     position: absolute;
     left: 480px;
     top: 260px;
@@ -60,7 +60,7 @@ body {
     color: #fff;
 }
 
-.first-section button {
+.solutions button {
 
     /** TEXT **/
     font-weight: 500;
@@ -89,3 +89,148 @@ body {
 
 
 
+
+.about h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 1.2;
+    color: #2E2F42;
+}
+
+.about p {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1.5;
+    color: #434455;
+}
+
+
+
+
+.what-we-do h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 1.1;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+
+.what-we-do img {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+}
+
+.what-we-do .screen {
+    height: 300px;
+    left: 350px;
+    top: 1400px;
+}
+
+.what-we-do .phone-pages {   
+    height: 300px;
+    left: 770px;
+    top: 1400px;
+}
+
+.what-we-do .phone-laptop {   
+    height: 300px;
+    left: 1200px;
+    top: 1400px;
+}
+
+.our-team {
+
+    width: 1920px;
+    height: 732px;
+    left: 0px;
+    background: #f4f4fd;
+}
+
+.our-team h2 {
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 1.1;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+
+.our-team .team-card li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 32px;
+    gap: 32px;     
+    width: 264px;
+    height: 380px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
+    position: absolute;
+}
+
+.our-team .mark {
+    left: 340px;
+}
+
+.our-team .tom {
+    left: 660px;
+} 
+
+.our-team .camila {
+    left: 980px;
+}
+
+.our-team .daniel {
+    left: 1310px;
+}
+
+footer .bg{
+    position: absolute;
+    height: 312px;
+}
+
+footer a {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1.1;
+    text-transform: uppercase;
+    color: #F4F4FD;
+}
+
+footer .logo {
+    font-weight: 800;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    color: #F4F4FD;
+}
+
+footer .logo span {
+    display: flex;
+    align-items: center;
+    letter-spacing: 1.1;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+
+footer p {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1.5;
+    color: #F4F4FD;
+    position: absolute;
+}
