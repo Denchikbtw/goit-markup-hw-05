@@ -4,41 +4,74 @@ body {
     background-color: #fff;
 }
 
-.navigation a {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;   
-    letter-spacing: 1.5;
+.navigation .link {
+    text-decoration: none
 }
 
-.navigation {
-    
+.navigation .list {
+    list-style: none
 }
 
 .navigation .logo {
-    font-family: 'Raleway';
+    font-family: 'Raleway' sans-serif;
     font-weight: 800;   
     font-size: 18px;
-    line-height: 21px;
-    letter-spacing: 1.1;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2E2F42;
-}
-
-.navigation .logo span {
-    font-family: 'Raleway';
-    font-weight: 800;
     color: #4D5AE5;
 }
 
-.address {
+.navigation .logo span {
+    font-family: 'Raleway' sans-serif;
+    font-weight: 800;
+    color: #2E2F42;
+}
+
+.main-nav {
+    font-weight: 500;
     font-size: 16px;
-    line-height: 24px;  
-    letter-spacing: 1.5;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.main-nav .link {
+    text-decoration: none;
+}
+
+.main-nav:hover {
+    color: #404bbf
+}
+
+.main-nav:focus {
+    color: #404bbf
+}
+
+.address {
+    font-style: normal;
+}
+
+.address .list {
+    list-style: none;
+}
+
+.address .link {
+    text-decoration: none;
+}
+
+.address .addresses {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-size: 16px;
     color: #434455;
 }
 
-.bg {
+.addresses:hover {
+    color: #404bbf;
+}
+
+.addresses:focus {
+    color: #404bbf;
 }
 
 .solutions {
@@ -57,7 +90,7 @@ body {
 .solutions .main-button {
 
     /** TEXT **/
-    font-family: "Roboto";
+    font-family: "Roboto" sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -73,7 +106,7 @@ body {
     background-color: #404BBF
 }
 
-.solutions .main-button:active {
+.solutions .main-button:focus {
     background-color: #404BBF
 }
 
@@ -92,9 +125,6 @@ body {
     color: #434455;
 }
 
-
-
-
 .what-we-do h2 {
     font-weight: 700;
     font-size: 36px;
@@ -103,18 +133,6 @@ body {
     letter-spacing: 1.1;
     text-transform: capitalize;
     color: #2E2F42;
-}
-
-.what-we-do img {
-}
-
-.what-we-do .screen {
-}
-
-.what-we-do .phone-pages {   
-}
-
-.what-we-do .phone-laptop {   
 }
 
 .our-team {
@@ -135,25 +153,6 @@ body {
     align-items: center;
     background: #FFFFFF;
 
-}
-
-.our-team .mark {
-
-}
-
-.our-team .tom {
-
-} 
-
-.our-team .camila {
-
-}
-
-.our-team .daniel {
-
-}
-
-footer .bg{
 }
 
 footer a {
