@@ -32,7 +32,6 @@ body {
 }
 
 .address {
-    position: absolute;
     font-size: 16px;
     line-height: 24px;  
     letter-spacing: 1.5;
@@ -42,26 +41,40 @@ body {
 .bg {
 }
 
-.solutions h1{
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 60px;
-    letter-spacing: 1.07;
-    text-align: center;
-    color: #fff;
+.solutions {
+    background-color: #2e2f42;
 }
 
-.solutions button {
+.solutions .main-text {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #ffffff;
+}
+
+.solutions .main-button {
 
     /** TEXT **/
+    font-family: "Roboto";
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 1.5;
-    color: #fff;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    color: #ffffff;
 
     /** BG **/
     background-color: #4D5AE5;
+}
+
+.solutions .main-button:hover {
+    background-color: #404BBF
+}
+
+.solutions .main-button:active {
+    background-color: #404BBF
 }
 
 .about h3 {
