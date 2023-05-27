@@ -153,8 +153,10 @@ ul .list {
 
 .our-team .list {
     justify-content: center;
-    background-color: #ffffff;
+}
 
+.our-team .workers {
+    background-color: #ffffff;
 }
 
 .our-team .title {
