@@ -1,7 +1,22 @@
+:root {
+    --color-logo: #4d5ae5;
+    --color-animation: #404bbf;
+    --color-bg: #2e2f42;
+    --color-green: #31d0aa;
+    --color-main: #434455;
+    --color-light-slate: #8e8f99;
+    --color-cornflower: #e7e9fc;
+    --color-footer: #f4f4fd;
+    --color-logo-span: #2e2f42;
+    --color-text: #2e2f42;
+    --color-white: #ffffff;
+    --color-dairy: #fcfcfc;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
-    color: #434455;
-    background-color: #fff;
+    color: var(--color-main);
+    background-color: var(--color-white);
 }
 
 .navigation .link {
@@ -19,13 +34,13 @@ ul .list {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4D5AE5;
+    color: var(--color-logo);
 }
 
-.navigation .logo span {
+.navigation .logo .studio {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
-    color: #2E2F42;
+    color: var(--color-logo-span);
 }
 
 .main-nav {
@@ -33,7 +48,7 @@ ul .list {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--color-text);
 }
 
 .main-nav .link {
@@ -41,11 +56,11 @@ ul .list {
 }
 
 .main-nav:hover {
-    color: #404bbf
+    color: var(--color-animation);
 }
 
 .main-nav:focus {
-    color: #404bbf
+    color: var(--color-animation);
 }
 
 .address {
@@ -60,19 +75,19 @@ ul .list {
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-size: 16px;
-    color: #434455;
+    color: var(--color-text);
 }
 
 .addresses:hover {
-    color: #404bbf;
+    color: var(--color-animation);
 }
 
 .addresses:focus {
-    color: #404bbf;
+    color: var(--color-animation);
 }
 
 .solutions {
-    background-color: #2e2f42;
+    background-color: var(--color-text);
 }
 
 .solutions .main-text {
@@ -81,7 +96,7 @@ ul .list {
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
-    color: #ffffff;
+    color: var(--color-white);
 }
 
 .solutions .main-button {
@@ -93,18 +108,18 @@ ul .list {
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
-    color: #ffffff;
+    color: var(--color-white);
 
     /** BG **/
-    background-color: #4D5AE5;
+    background-color: var(--color-logo);
 }
 
 .solutions .main-button:hover {
-    background-color: #404BBF
+    background-color: var(--color-animation);
 }
 
 .solutions .main-button:focus {
-    background-color: #404BBF
+    background-color: var(--color-animation);
 }
 
 .about .title {
@@ -112,14 +127,14 @@ ul .list {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--color-text);
 }
 
 .about .description {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--color-main);
 }
 
 .what-we-do .title {
@@ -129,16 +144,16 @@ ul .list {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2E2F42;
+    color: var(--color-text);
 }
 
 .our-team {
-    background: #f4f4fd;
+    background: var(--color-footer);
 }
 
 .our-team .list {
     justify-content: center;
-    background-color: #FFFFFF;
+    background-color: var(--color-white);
 
 }
 
@@ -148,7 +163,7 @@ ul .list {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2E2F42;
+    color: var(--color-text);
 }
 
 .our-team .title-team {
@@ -157,7 +172,7 @@ ul .list {
     line-height: 1.2;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--color-text);
 }
 
 .our-team .description {
@@ -165,7 +180,7 @@ ul .list {
     line-height: 1.5;
     text-align: center;
     letter-spacing: 0.02em;
-     color: #434455;
+     color: var(--color-main);
 }
 
 
@@ -173,7 +188,7 @@ ul .list {
 
 
 .footer {
-    background-color: #2e2f42;
+    background-color: var(--color-bg);
 }
 
 .footer a {
@@ -187,7 +202,7 @@ ul .list {
 
 .footer .logo {
     font-weight: 800;
-    color: #4d5ae5;
+    color: var(--color-logo);
 }
 
 .footer .link {
@@ -197,12 +212,12 @@ ul .list {
 .footer .logo .studio {
     letter-spacing: 1.1;
     text-transform: uppercase;
-    color: #f4f4fd;
+    color: var(--color-footer);
 }
 
 .footer .description {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #F4F4FD;
+    color: var(--color-footer);
 }
