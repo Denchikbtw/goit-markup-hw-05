@@ -221,6 +221,10 @@ ul .list {
     color: var(--color-main);
 }
 
+.portfolio-section .link {
+    text-decoration: none;
+}
+
 .footer {
     background-color: var(--color-bg);
 }
