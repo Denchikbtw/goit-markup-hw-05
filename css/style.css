@@ -20,10 +20,10 @@ body {
 }
 
 .navigation .link {
-    text-decoration: none
+    text-decoration: none;
 }
 
-ul .list {
+.list {
     list-style: none;
 }
 
