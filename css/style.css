@@ -298,12 +298,15 @@ body {
 .btn {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
+    height: 48px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--color-logo);
     background-color: var(--color-footer);
     cursor: pointer;
+    border: none;
+    border-radius: 4px;
 }
 
 .btn:hover {
@@ -314,6 +317,27 @@ body {
 .btn:focus {
     color: var(--color-white);
     background-color: var(--color-animation);
+}
+
+.main-btn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
+}
+
+.portfolio-section {
+    padding: 96px 0 120px;
+}
+
+.portfolio-section .list {
+    
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 48px;
+    column-gap: 24px;
+    padding: 0 620px;
 }
 
 .portfolio-section .title{
@@ -328,13 +352,19 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--color-main);
+    color: var(--color-main);  
+}
+
+.portfolio-desc-photo {
+    padding: 32px 0;
 }
 
 .portfolio-section .link {
     text-decoration: none;
 }
+
                                 /* * FOOTER * */
+
 .footer {
     background-color: var(--color-bg);
     padding: 100px 0;
