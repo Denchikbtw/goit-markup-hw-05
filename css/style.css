@@ -149,6 +149,8 @@ img {
     color: var(--color-animation);
 }
 
+                                    /* * FIRST SECTION * */
+
 .section {
     padding: 120px;
 }
@@ -156,6 +158,7 @@ img {
 .solutions {
     background-color: var(--color-text);
     margin-bottom: 120px;
+    padding: 188px 0;
 }
 
 .solutions h1 {
@@ -205,8 +208,24 @@ img {
     background-color: var(--color-animation);
 }
 
+                                    /* * ABOUT SECTION * */
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 .about {
     display: flex;
+    padding: 120px 0;
 }
 
 .about .list{
@@ -221,6 +240,7 @@ img {
     letter-spacing: 0.02em;
     color: var(--color-text);
     margin-bottom: 8px;
+    width: calc((100% - 72px) / 4);
 }
 
 .about .description {
@@ -253,6 +273,7 @@ img {
 
 .our-team {
     background: var(--color-footer);
+    padding: 120px 0;
 }
 
 .our-team .list {
@@ -285,6 +306,7 @@ img {
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--color-text);
+    margin-bottom: 8px;
 }
 
 .our-team .description {
@@ -305,7 +327,6 @@ img {
 .btn {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
-    height: 48px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
@@ -314,16 +335,20 @@ img {
     cursor: pointer;
     border: none;
     border-radius: 4px;
+    padding: 12px 24px;
+    border: 1px solid var(--color-cornflower);
 }
 
 .btn:hover {
     color: var(--color-white);
     background-color: var(--color-animation);
+    border: 1px solid transparent;
 }
 
 .btn:focus {
     color: var(--color-white);
     background-color: var(--color-animation);
+    border: 1px solid transparent;
 }
 
 .main-btn {
@@ -344,7 +369,6 @@ img {
     flex-wrap: wrap;
     row-gap: 48px;
     column-gap: 24px;
-    padding: 0 620px;
 }
 
 .portfolio-section .title{
@@ -384,11 +408,11 @@ img {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-bottom: 16px;
 }
 
 .footer .logo {
     display: inline-block;
-    margin-bottom: 17px;
     font-weight: 800;
     color: var(--color-logo);
 }
