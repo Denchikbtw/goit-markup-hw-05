@@ -376,6 +376,10 @@ img {
     column-gap: 24px;
 }
 
+.portfolio-section .icon-list {
+    gap: 24px;
+}
+
 .portfolio-section .title{
     font-weight: 500;
     font-size: 20px;
