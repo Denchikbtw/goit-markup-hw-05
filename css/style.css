@@ -257,10 +257,6 @@ img {
     padding-bottom: 120px;
 }
 
-.what-do-item {
-
-}
-
 .what-we-do .title {
     font-weight: 700;
     font-size: 36px;
@@ -373,7 +369,7 @@ img {
     padding: 96px 0 120px;
 }
 
-.portfolio-section .list {
+.portfolio-section .icon-list {
     display: flex;
     flex-wrap: wrap;
     row-gap: 48px;
