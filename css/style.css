@@ -67,6 +67,10 @@ img {
     list-style: none;
 }
 
+.main-list {
+    list-style: none;
+}
+
 .navigation {
     display: flex;
     align-items: center;
@@ -369,15 +373,11 @@ img {
     padding: 96px 0 120px;
 }
 
-.portfolio-section .list {
+.main-list {
     display: flex;
     flex-wrap: wrap;
     row-gap: 48px;
     column-gap: 24px;
-}
-
-.portfolio-section .icon-list {
-    gap: 24px;
 }
 
 .portfolio-section .title{
