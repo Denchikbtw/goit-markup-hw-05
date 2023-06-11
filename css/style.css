@@ -59,8 +59,6 @@ img {
 .header-container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 0 15px;
 }
 
 .list {
@@ -95,7 +93,6 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--color-logo);
-    margin-right: 76px;
 }
 
 .navigation .logo .studio {
@@ -127,6 +124,7 @@ img {
 
 .address {
     font-style: normal;
+    margin-left: auto;
 }
 
 .address-container {
@@ -161,7 +159,6 @@ img {
 
 .solutions {
     background-color: var(--color-text);
-    margin-bottom: 120px;
     padding: 188px 0;
 }
 
@@ -228,7 +225,6 @@ img {
 }
 
 .about {
-    display: flex;
     padding: 120px 0;
 }
 
