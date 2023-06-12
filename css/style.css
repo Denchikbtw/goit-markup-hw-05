@@ -408,6 +408,11 @@ img {
     border-radius: 4px;
 }
 
+.customers-list .link-customers-icons{
+    transition: border-color var(--transition);
+    transition: color var(--transition);
+}
+
 .container .title {
     font-weight: 700;
     font-size: 36px;
@@ -429,8 +434,6 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: border-color var(--transition);
-    transition: color var(--transition);
 }
 
 .link-customers-icons:focus,
