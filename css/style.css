@@ -122,8 +122,14 @@ img {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.current:active {
+    content: '';
+    color: #404bbf;
+}
+
 .current::after {
     content: "";
+    position: absolute;
     display: block;
     background-color: #404bbf;
     width: 100%;
