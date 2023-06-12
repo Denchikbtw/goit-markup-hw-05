@@ -575,6 +575,10 @@ img {
     margin-bottom: 16px;
 }
 
+.footer-container {
+    display: flex;
+}
+
 .footer-icons {
     padding: 8px;
     width: 40px;
