@@ -57,7 +57,7 @@
       <!-- Filters -->
 
       <section class="portfolio-section">
-        <div class="container">
+        <div class="portfolio-container">
           <h1 class="visually-hidden">title</h1>
 
           <ul class="main-btn list">
@@ -290,19 +290,22 @@
           </ul>
         </div>
         <div class="footer-subscribe">
-          <p class="title-subscribe">Subscribe</p>
-          <input
-            class="subscribe-input"
-            type="text"
-            name="E-mail"
-            placeholder="E-mail"
-          />
-          <button class="subscribe-btn">
-            <span class="footer-text-btn">Subscribe</span>
-            <svg class="footer-container-airplane" width="24" height="24">
-              <use href="./images/icons.svg#icon-airplane"></use>
-            </svg>
-          </button>
+          <label for="footer-email" class="title-subscribe">Subscribe</label>
+          <form class="form-subscribe">
+            <input
+              class="subscribe-input"
+              type="email"
+              name="E-mail"
+              id="footer-email"
+              placeholder="E-mail"
+            />
+            <button type="submit" class="subscribe-btn">
+              <span class="footer-text-btn">Subscribe</span>
+              <svg class="footer-container-airplane" width="24" height="24">
+                <use href="./images/icons.svg#icon-airplane"></use>
+              </svg>
+            </button>
+          </form>
         </div>
       </div>
     </footer>

@@ -58,6 +58,12 @@ img {
     padding: 0 15px;
 }
 
+.portfolio-container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
 .header-container {
     display: flex;
     align-items: center;
@@ -664,6 +670,11 @@ img {
 
                                  /** FOOTER SUBSCRIBE **/
 
+.form-subscribe {
+    display: flex;
+    gap: 24px;
+}
+
 .footer-subscribe {
    margin-left: 80px;
    width: 460px;
@@ -679,23 +690,26 @@ img {
 }
 
 .subscribe-btn {
-    width: 165px;
+    font-family: "Roboto", sans-serif;
+    min-width: 165px;
+    height: 40px;
     background-color: var(--color-logo);
     border: none;
     border-radius: 4px;
     padding: 8px 24px;
-    margin-left: 24px;
-    display: inline-flex;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer-text-btn {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    display: flex;
     letter-spacing: 0.04em;
-    color: var(--color-white);
+    color: var(--color-white);  
+    display: flex;
 }
 
 .footer-container-airplane {
@@ -707,16 +721,17 @@ img {
     background: transparent;
     border: 1px solid #ffffff;
     border-radius: 4px;
+    font-size: 12px;
+    line-height: 1.5;
     width: 264px;
     height: 40px;
     color: #ffffff;
     padding-left: 16px;
     padding-right: 16px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 }
 
 .subscribe-input::placeholder {
-    font-size: 12px;
-    line-height: 2.0;
     display: flex;
     align-items: center;
     letter-spacing: 0.04em;
@@ -791,6 +806,7 @@ img {
     letter-spacing: 0.02em;
     color: var(--color-text);
     padding: 72px 24px 16px 24px;
+    margin-bottom: 16px
 }
 
 .modal-form {
@@ -805,7 +821,7 @@ img {
     border-radius: 4px;
     padding-left: 38px;
     outline: transparent;
-    transition: border var(--transition);
+    transition: border-color var(--transition);
     padding-right: 16px;
 }
 
@@ -818,10 +834,11 @@ img {
 }
 
 .modal-field {
-    margin-bottom: 8px;
+    margin-bottom: 16px;
 }
 
 .label-modal-input {
+    display: block;
     font-weight: 400;
     font-size: 12px;
     line-height: 1.17;
@@ -861,12 +878,14 @@ img {
     background-color: transparent;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-top: 8px;
+    padding: 8px 16px;
     outline: transparent;
-    transition: border var(--transition);
+    transition: border-color var(--transition);
     resize: none;
+}
+
+.modal-text-area:focus {
+    border-color: #4D5AE5;
 }
 
 .modal-text-area::placeholder {
@@ -879,7 +898,7 @@ img {
                             /** INPUT CHECK **/
 
 .wrap-comment {
-    margin-bottom: 24px;
+    margin-bottom: 16px;
 }
 
 .text-input-check {
@@ -894,10 +913,10 @@ img {
 .input-check:checked + .text-input-check span {
     background-color: #404bbf;
     border: none;
-    fill: #ffffff;
+    fill: #f4f4fd;
 }
 
-.text-input-check span {
+.text-input-check .container-checkbox-icon {
     width: 16px;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
@@ -907,6 +926,9 @@ img {
     align-items: center;
     justify-content: center;
     fill: transparent;
+    transition: background-color var(--transition),
+        border var(--transition),
+        fill var(--transition);
 }
 
 .text-check-privacy {
@@ -918,19 +940,21 @@ img {
 }
 
                                /** MODAL BTN **/
-
-.wrap-modal-btn {
-    display: flex;
-    justify-content: center;
-}
         
 .modal-btn {
-    width: 169px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    display: block;
+    min-width: 169px;
     height: 56px;
-    background: #4D5AE5;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    border: none;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     color: #FFFFFF;
     cursor: pointer;
+    background-color: #4D5AE5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none; 
+    transition: background-color var(--transition);
 }                            
