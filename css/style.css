@@ -827,6 +827,14 @@ img {
 }
 
 .modal-field {
+    margin-bottom: 8px;
+}
+
+.text-modal-field {
+    margin-bottom: 16px;
+}
+
+.check-modal-field {
     margin-bottom: 24px;
 }
 
@@ -920,7 +928,6 @@ img {
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
     margin-right: 8px;
-    display: flex;
     align-items: center;
     justify-content: center;
     fill: transparent;
