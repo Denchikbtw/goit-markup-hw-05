@@ -691,6 +691,11 @@ img {
 
 .subscribe-btn {
     font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--color-white);
     min-width: 165px;
     height: 40px;
     background-color: var(--color-logo);
@@ -703,12 +708,7 @@ img {
     align-items: center;
 }
 
-.footer-text-btn {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: var(--color-white);  
+.footer-text-btn { 
     display: flex;
 }
 
@@ -723,6 +723,7 @@ img {
     border-radius: 4px;
     font-size: 12px;
     line-height: 1.5;
+    letter-spacing: 0.04em;
     width: 264px;
     height: 40px;
     color: #ffffff;
